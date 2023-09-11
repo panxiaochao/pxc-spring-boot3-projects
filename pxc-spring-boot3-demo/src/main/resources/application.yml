@@ -1,0 +1,20 @@
+# server
+server:
+  port: 18000
+  servlet:
+    context-path: /
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true
+  application:
+    name: springboot3-demo
+
+  data:
+    redis:
+      url: 127.0.0.1
+      port: 6379
+      database: 0
+
+
